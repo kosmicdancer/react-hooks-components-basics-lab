@@ -16,11 +16,22 @@ function Home() {
   );
 }
 
+function About() {
+  return (
+    <div id="about">
+      <h3>This is a basic react hooks components lab. </h3>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
+      <Home />
+      <About />
+      
+      {/* add the <Home> component here  */}
       {/* write an <About> component here */}
     </div>
   );
